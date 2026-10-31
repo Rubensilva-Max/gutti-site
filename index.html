@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11110f">
+  <meta name="description" content="GUTTI — moda contemporânea, elegância sem esforço. Descubra a nova coleção.">
+  <title>GUTTI — Elegância em movimento</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">NOVA COLEÇÃO • ELEGÂNCIA EM MOVIMENTO</div>
+  <header class="header" id="top">
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+    <a class="logo" href="#top" aria-label="Gutti início">GUTTI<span>®</span></a>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#colecao">Coleção</a><a href="#manifesto">Manifesto</a><a href="#essenciais">Essenciais</a>
+    </nav>
+    <button class="bag-button" aria-label="Abrir sacola">SACOLA <span class="bag-count">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">GUTTI — NOVA TEMPORADA</p>
+        <h1>Vista sua<br><em>presença.</em></h1>
+        <p class="hero-copy">Peças que falam por você. Uma nova perspectiva sobre o essencial.</p>
+        <a class="button button-light" href="#colecao">EXPLORAR COLEÇÃO <span>↗</span></a>
+      </div>
+      <div class="hero-foot"><span>01 / 03</span><span>ESTILO QUE PERMANECE</span><span>SCROLL PARA DESCOBRIR ↓</span></div>
+    </section>
+
+    <section class="intro section-pad" id="manifesto">
+      <p class="eyebrow reveal">MENOS, MAS MELHOR</p>
+      <h2 class="intro-title reveal">A verdadeira sofisticação<br>está no <em>detalhe.</em></h2>
+      <p class="intro-text reveal">A GUTTI nasce para quem entende que estilo não precisa de esforço. Design atemporal, formas marcantes e escolhas feitas para acompanhar você.</p>
+    </section>
+
+    <section class="collection section-pad" id="colecao">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">SELEÇÃO GUTTI</p><h2>Escolhas da <em>temporada.</em></h2></div>
+        <a class="text-link" href="#essenciais">VER TODOS OS ESSENCIAIS ↗</a>
+      </div>
+      <div class="filters reveal" role="group" aria-label="Filtrar produtos">
+        <button class="filter active" data-filter="all">Todos</button><button class="filter" data-filter="masculino">Masculino</button><button class="filter" data-filter="feminino">Feminino</button><button class="filter" data-filter="acessorios">Acessórios</button>
+      </div>
+      <div class="products" id="products">
+        <article class="product-card reveal" data-category="masculino" data-name="Camisa Essential" data-price="189.90">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=900&q=85" alt="Camisa masculina clara"><span class="product-tag">MAIS VENDIDO</span><button class="quick-add" aria-label="Adicionar Camisa Essential à sacola">+</button></div>
+          <div class="product-info"><div><h3>Camisa Essential</h3><p>Algodão premium</p></div><strong>R$ 189,90</strong></div>
+        </article>
+        <article class="product-card reveal" data-category="feminino" data-name="Blazer Aura" data-price="329.90">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=900&q=85" alt="Blazer de alfaiataria"><span class="product-tag">EDIÇÃO LIMITADA</span><button class="quick-add" aria-label="Adicionar Blazer Aura à sacola">+</button></div>
+          <div class="product-info"><div><h3>Blazer Aura</h3><p>Alfaiataria contemporânea</p></div><strong>R$ 329,90</strong></div>
+        </article>
+        <article class="product-card reveal" data-category="masculino" data-name="Jaqueta Urban" data-price="399.90">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=900&q=85" alt="Jaqueta de couro em fundo neutro"><button class="quick-add" aria-label="Adicionar Jaqueta Urban à sacola">+</button></div>
+          <div class="product-info"><div><h3>Jaqueta Urban</h3><p>Textura e atitude</p></div><strong>R$ 399,90</strong></div>
+        </article>
+        <article class="product-card reveal" data-category="acessorios" data-name="Óculos Frame" data-price="159.90">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=900&q=85" alt="Óculos de sol sofisticados"><button class="quick-add" aria-label="Adicionar Óculos Frame à sacola">+</button></div>
+          <div class="product-info"><div><h3>Óculos Frame</h3><p>Design autoral</p></div><strong>R$ 159,90</strong></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="campaign">
+      <div class="campaign-photo"></div><div class="campaign-content reveal"><p class="eyebrow">O NOVO CLÁSSICO</p><h2>Não siga<br>o ritmo.<br><em>Crie o seu.</em></h2><a href="#essenciais" class="button button-outline">DESCUBRA A GUTTI <span>↗</span></a></div>
+    </section>
+
+    <section class="essentials section-pad" id="essenciais">
+      <div class="section-heading reveal"><div><p class="eyebrow">A EXPERIÊNCIA GUTTI</p><h2>Feito para <em>ficar.</em></h2></div></div>
+      <div class="values">
+        <div class="value reveal"><span>01</span><h3>Design atemporal</h3><p>Uma curadoria que vai além das tendências e valoriza sua identidade.</p></div>
+        <div class="value reveal"><span>02</span><h3>Qualidade percebida</h3><p>Materiais, caimento e acabamento escolhidos para fazer a diferença.</p></div>
+        <div class="value reveal"><span>03</span><h3>Estilo pessoal</h3><p>Liberdade para combinar, experimentar e criar seu próprio caminho.</p></div>
+      </div>
+    </section>
+    <section class="newsletter section-pad">
+      <p class="eyebrow reveal">ENTRE PARA O UNIVERSO GUTTI</p><h2 class="reveal">Novidades com <em>intenção.</em></h2>
+      <form class="newsletter-form reveal" id="newsletter"><label class="sr-only" for="email">Seu e-mail</label><input id="email" type="email" placeholder="Seu melhor e-mail" required><button type="submit">QUERO RECEBER ↗</button></form><p class="form-message" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="logo" href="#top">GUTTI<span>®</span></a><p>ESTILO QUE PERMANECE.</p><div class="footer-links"><a href="#colecao">Coleção</a><a href="#manifesto">Sobre a GUTTI</a><a href="mailto:contato@gutti.com.br">Contato</a></div><small>© <span id="year"></span> GUTTI. Todos os direitos reservados.</small></footer>
+
+  <div class="cart-overlay" aria-hidden="true"><aside class="cart-panel" aria-label="Sacola de compras"><div class="cart-head"><h2>Sua sacola</h2><button class="cart-close" aria-label="Fechar sacola">×</button></div><div class="cart-items"><p class="empty-cart">Sua sacola está vazia.</p></div><div class="cart-bottom"><div><span>Subtotal</span><strong class="cart-total">R$ 0,00</strong></div><button class="checkout">FINALIZAR PEDIDO</button><small>Checkout demonstrativo — configure seu canal de vendas para receber pedidos.</small></div></aside></div>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
